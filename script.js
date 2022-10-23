@@ -7,34 +7,43 @@ comandos[2].addEventListener('click', relatorio);
 
 
 
-function clientes()  { 
+function clientes() { 
 
   var telaClientes = document.querySelectorAll(".clientes");
-
-    if(telaClientes[0].style.display = "none"){
-
+    if(telaClientes[0].style.display === "none"){
       telaClientes[0].style.display = "block ";
+    }
+    else {
+    
+        telaClientes[0].style.display = "none"
+      
     }
 
 }
 
 function estoque()  { 
-
   var telaEstoque = document.querySelectorAll(".estoque");
-  
 
-  telaEstoque[0].style.display = "block";
+  if(telaEstoque[0].style.display === "none"){
+    telaEstoque[0].style.display = "block ";
+    
+  }
+  else {
+  telaEstoque[0].style.display = "none"
 
-
+  }
 }
 
 function relatorio()  { 
 
   var telaRelatorio = document.querySelectorAll(".relatorios");
 
-    if(telaClientes[0].style.display = "block" || telaEstoque[0].style.display == "block"){
-      telaClientes[0].style.display = "none"
-      telaEstoque[0].style.display == "none"
-      telaRelatorio[0].style.display = "block"
-    }
+  if(telaRelatorio[0].style.display === "none"){
+    telaRelatorio[0].style.display = "block ";
+  }
+  else {
+  
+      telaRelatorio[0].style.display = "none"
+    
+  }
 }

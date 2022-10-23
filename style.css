@@ -15,52 +15,38 @@ button {
     font-size: 16px;
     height: 30px;
     width: 150px;
-    background-color: rgb(110, 158, 218);
+    background-color: rgb(12, 58, 114);
     border-radius: 15%;
 }
 
 .container {
-
+    position: relative;
     margin-left: 25%;
     width: 950px;
     height: 850px;
-    background-color: rgb(32, 104, 163);
+    background-image: url('./img.jpg');
 }
 
 .clientes {
+    position: absolute;
     display: none;
-    width: 800px;
-    height: 500px;
-    background-color: green;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(110, 110, 142);
 }
 
 .estoque {
+    position: absolute;
     display: none;
-    width: 800px;
-    height: 500px;
-    background-color: blue;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(110, 110, 142);
 }
 
 .relatorios {
+    position: absolute;
     display: none;
-    width: 800px;
-    height: 500px;
-    background-color:red;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(110, 110, 142);
 }
-
-@-webkit-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; } 
-    }
-    @-moz-keyframes fadeIn {
-    0% { opacity: 0;}
-    100% { opacity: 1; }
-    }
-    @-o-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-    }
-    @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-    }
