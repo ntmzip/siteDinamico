@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+.navbar {
+    text-align: center;
+}
+
+
+button {
+    opacity: 65%;
+    margin: 15px 75px;
+    color: #FFF;
+    font-size: 16px;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(110, 158, 218);
+    border-radius: 15%;
+}
+
+.container {
+
+    margin-left: 25%;
+    width: 950px;
+    height: 850px;
+    background-color: rgb(32, 104, 163);
+}
+
+.clientes {
+    display: none;
+    width: 800px;
+    height: 500px;
+    background-color: green;
+}
+
+.estoque {
+    display: none;
+    width: 800px;
+    height: 500px;
+    background-color: blue;
+}
+
+.relatorios {
+    display: none;
+    width: 800px;
+    height: 500px;
+    background-color:red;
+}
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
